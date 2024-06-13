@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container{
+    
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 378px;
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+    box-shadow: 2px 2px 20px aqua;
+    top: 20px;
+}
+.container table{
+    padding: 20px;
+    width: 380px;
+}
+.container .btn{
+    font-size: 20px;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 2pc;
+    outline: none;
+    background-color: aqua;
+    border: 0px;
+    font-weight: bold;
+}
+
+#enterValue{
+    text-align: right;
+    padding: 8px 2px;
+    width: 370px;
+    font-size: 50px;
+    outline: none;
+    border: 0px;
+    height: 70px;
+    margin: 50px 0px 100px 0px;
+    background-color: transparent;
+    color: aqua
+}
+
+@media only screen and (max-width: 320px){
+    .container{
+        width: 380px;
+        top: 0px;   
+    }
+    .container table{
+        padding: 15px;
+    }
+    .container .btn{
+        font-size: 15px;
+        margin: 10px;      
+    }
+    #enterValue{
+        margin: 50px 0px 178px 0px; 
+    }
+}
