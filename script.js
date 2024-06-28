@@ -70,7 +70,7 @@ buttons.forEach(function (button) {
         break;
       case "result":
         if (input.value != "") {
-          input.value = eval(input.value).toFixed(2);
+          input.value = eval(input.value);
         }
         break;
       default:
